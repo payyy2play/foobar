@@ -10,3 +10,18 @@ h1 {
 p {
     color: lightgreen;
 }
+
+ul li:first-child {
+    background: #f57c00;
+    box-shadow: 0 0 50px #f57c00;
+}
+
+ul li:nth-child(2) {
+    background: #f06292;
+    box-shadow: 0 0 50px #f06292;
+}
+
+ul li:nth-child(3) {
+    background: #4fc3f7;
+    box-shadow: 0 0 50px #4fc3f7;
+}
